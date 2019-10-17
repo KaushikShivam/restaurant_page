@@ -11,19 +11,19 @@ header {
   position: relative;
 }
 
-.hero-content {
+.hero {
   position: absolute;
   top: 50%;
   left: 10%;
   transform: translateY(-50%);
 }
 
-header h1 {
+.hero__h1 {
   color: rgb(226, 226, 226);
   font-size: 15rem;
 }
 
-header h2 {
+.hero__h2 {
   color: rgba(202, 202, 202, 0.801);
   font-size: 6rem;
 }
