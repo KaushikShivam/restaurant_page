@@ -27,3 +27,119 @@ header {
   color: rgba(202, 202, 202, 0.801);
   font-size: 6rem;
 }
+
+/* menu styles */
+.section-menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F2F2F2;
+}
+
+.section-menu .container {
+  height: 100vh;
+  text-align: center;
+}
+
+.menu {
+  height: 100%;
+  width: 100%;
+}
+
+.menu__title {
+  color: #4A4A4A;
+  font-size: 5.5rem;
+}
+
+.menu__subtitle {
+  color: #E0931E;
+  font-size: 2.5rem;
+}
+
+.menu__items {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.menu__items p {
+  color: #66665E;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.menu__price::before {
+  display: inline-block;
+  content: "";
+  border-top: .2rem solid #E0931E;
+  width: 18rem;
+  margin: 0 3rem;
+  transform: translateY(-1rem);
+}
+
+.menu__price::after {
+  display: inline-block;
+  content: "";
+  border-top: .2rem solid #E0931E;
+  width: 18rem;
+  margin-top: 3rem;
+  transform: translateY(-1rem);
+}
+
+.menu__price h2 {
+  font-size: 2.5rem;
+  color: #7D7D7D;
+}
+
+.menu__price p {
+  font-size: 1.5rem;
+  color: #7D7D7D;
+}
+
+.menu__chef {
+  margin-top: 3rem;
+}
+
+.chef__name {
+  font-size: 2rem;
+  color: #434343;
+  margin-bottom: 1rem;
+}
+
+.chef__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chef__content span {
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  color: #7B7B7B
+}
+
+.menu__left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__image {
+  margin: 3rem 0;
+}
+
+.menu__image img {
+  width: 75%;
+  height: 75%;
+  border: 1.5rem solid white;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.4);
+}
