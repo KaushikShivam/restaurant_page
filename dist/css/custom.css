@@ -1,0 +1,253 @@
+body {
+  font-family: 'Nunito Sans' !important;
+}
+
+/* nav styles */
+.nav {
+  background-color: #E0931E;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav button {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+
+.nav button:focus {
+  outline: none;
+}
+
+/* Header styles */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7)100%), url(https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  width: 100vw;
+  height: 94.5vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+}
+
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.hero__h1 {
+  color: rgb(226, 226, 226);
+  font-size: 15rem;
+}
+
+.hero__h2 {
+  color: rgba(202, 202, 202, 0.801);
+  font-size: 6rem;
+}
+
+/* menu styles */
+.section-menu {
+  width: 100vw;
+  height: 94.5vh;
+  background-color: #F2F2F2;
+}
+
+.section-menu .container {
+  height: 94.5vh;
+  text-align: center;
+}
+
+.menu {
+  height: 100%;
+  width: 100%;
+}
+
+.menu__title {
+  color: #4A4A4A;
+  font-size: 5.5rem;
+}
+
+.menu__subtitle {
+  color: #E0931E;
+  font-size: 2.5rem;
+}
+
+.menu__items {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.menu__items p {
+  color: #66665E;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.menu__price::before {
+  display: inline-block;
+  content: "";
+  border-top: .2rem solid #E0931E;
+  width: 18rem;
+  margin: 0 3rem;
+  transform: translateY(-1rem);
+}
+
+.menu__price::after {
+  display: inline-block;
+  content: "";
+  border-top: .2rem solid #E0931E;
+  width: 18rem;
+  margin-top: 3rem;
+  transform: translateY(-1rem);
+}
+
+.menu__price h2 {
+  font-size: 2.5rem;
+  color: #7D7D7D;
+}
+
+.menu__price p {
+  font-size: 1.5rem;
+  color: #7D7D7D;
+}
+
+.menu__chef {
+  margin-top: 3rem;
+}
+
+.chef__name {
+  font-size: 2rem;
+  color: #434343;
+  margin-bottom: 1rem;
+}
+
+.chef__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chef__content span {
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  color: #7B7B7B
+}
+
+.menu__left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__image {
+  margin: 3rem 0;
+}
+
+.menu__image img {
+  width: 75%;
+  height: 75%;
+  border: 1.5rem solid white;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* showcase styles */
+.section-showcase {
+  width: 100vw;
+  height: 94.5vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7)100%), url('../img/showcase.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.showcase__header {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.showcase__header::after {
+  display: block;
+  content: "";
+  border-top: .2rem solid #E0931E;
+  width: 18rem;
+  transform: translateY(-1rem);
+  margin: 2rem auto;
+}
+
+.showcase__main {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.showcase__img img {
+  width: 100%;
+  height: 100%;
+  border: 2rem solid white;
+}
+
+.showcase__details {
+  padding: 5rem;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.showcase__details h2 {
+  font-size: 4rem;
+  color: #3f3f3f;
+}
+
+.showcase__details h2::after {
+  display: block;
+  content: "";
+  border-top: .2rem solid #E0931E;
+  width: 18rem;
+  margin-top: 3rem;
+  transform: translateY(-1rem);
+}
+
+.showcase__details p {
+  color: #606060;
+  margin-top: 2rem;
+}
+
+.showcase__stars {
+  margin-top: 2rem;
+}
+
+.showcase__stars img {
+  display: inline-block;
+  width: 3rem;
+}
+
+.showcase__slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase__slider>* {
+  padding: 1rem;
+}
