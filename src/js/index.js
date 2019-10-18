@@ -9,27 +9,27 @@ base.insertAdjacentHTML('beforebegin', navView);
 base.insertAdjacentHTML('beforeend', headerView);
 
 const clearPrevView = () => {
-	base.innerHTML = '';
+  base.innerHTML = '';
 };
 
-const handleClick = e => {
-	clearPrevView();
-	switch (e.target.id) {
-		case 'home__btn':
-			base.insertAdjacentHTML('beforeend', headerView);
-			break;
-		case 'brand__btn':
-			base.insertAdjacentHTML('beforeend', headerView);
-			break;
-		case 'menu__btn':
-			base.insertAdjacentHTML('beforeend', menuView);
-			break;
-		case 'showcase__btn':
-			base.insertAdjacentHTML('beforeend', showcaseView);
-			break;
-		default:
-			break;
-	}
+const handleClick = (e) => {
+  clearPrevView();
+  switch (e.target.id) {
+    case 'home__btn':
+      base.insertAdjacentHTML('beforeend', headerView);
+      break;
+    case 'brand__btn':
+      base.insertAdjacentHTML('beforeend', headerView);
+      break;
+    case 'menu__btn':
+      base.insertAdjacentHTML('beforeend', menuView);
+      break;
+    case 'showcase__btn':
+      base.insertAdjacentHTML('beforeend', showcaseView);
+      break;
+    default:
+      break;
+  }
 };
 
 window.addEventListener('click', handleClick);
