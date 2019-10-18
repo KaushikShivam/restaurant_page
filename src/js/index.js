@@ -1,1 +1,3 @@
-console.log('hello');
+import base from './views/base';
+
+console.log(base);
