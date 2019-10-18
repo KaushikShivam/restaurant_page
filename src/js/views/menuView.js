@@ -25,14 +25,14 @@ export default `
         <p class="chef__name">Chef</p>
         <div class="chef__content">
           <span>Jenna</span>
-          <img src="../img/chef.png" alt="Menu chef">
+          <img src="img/chef.png" alt="Menu chef">
           <span>Joe</span>
         </div>
       </div>
     </div>
     <div class="col-6 menu__right">
       <div class="menu__image">
-        <img src="../img/cake.jpg" alt="Cake showcase">
+        <img src="img/cake.jpg" alt="Cake showcase">
       </div>
     </div>
   </div>
