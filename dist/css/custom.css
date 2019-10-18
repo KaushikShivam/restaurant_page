@@ -2,6 +2,24 @@ body {
   font-family: 'Nunito Sans' !important;
 }
 
+/* nav styles */
+.nav {
+  background-color: #E0931E;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav button {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+
+.nav button:focus {
+  outline: none;
+}
+
 /* Header styles */
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.7)100%), url(https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
