@@ -20,7 +20,7 @@ The project is built using modern JS features and follows a basic version of MCV
 1. Clone the project to your local directory
 
 ```
-git clone https://github.com/KaushikShivam/concentration
+git clone https://github.com/KaushikShivam/restaurant_page
 ```
 
 2. The project uses NPM for managing dependencies. Run npm install to install all the required dependencies
